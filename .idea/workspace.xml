@@ -1,25 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9d8e1d3-0592-45f1-b5c8-f65140db0a61" name="Default Changelist" comment="项目提交,生产数据库表">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pythondj.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythondj.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c9d8e1d3-0592-45f1-b5c8-f65140db0a61" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py1/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py1/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py1/my_app/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py1/my_app/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py1/my_app/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py1/my_app/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py1/my_app/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py1/my_app/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py1/my_app/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py1/my_app/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py1/py1/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py1/py1/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py1/py1/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py1/py1/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dj1/my_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj1/my_app/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,21 +61,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dj1/my_app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-81">
-              <caret column="25" selection-start-column="25" selection-end-column="25" />
+            <state relative-caret-position="297">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="368">
-                <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+              <first_editor relative-caret-position="230">
+                <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
               </first_editor>
               <second_editor />
             </state>
@@ -109,19 +93,19 @@
         <option value="$PROJECT_DIR$/py1/py1/__init__.py" />
         <option value="$PROJECT_DIR$/py1/my_app/models.py" />
         <option value="$PROJECT_DIR$/py1/py1/settings.py" />
-        <option value="$PROJECT_DIR$/dj1/my_app/models.py" />
         <option value="$PROJECT_DIR$/dj1/dj1/__init__.py" />
         <option value="$PROJECT_DIR$/dj1/dj1/settings.py" />
         <option value="$PROJECT_DIR$/dj1/my_app/__init__.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/dj1/my_app/models.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1045" />
-    <option name="y" value="50" />
-    <option name="width" value="914" />
-    <option name="height" value="881" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="921" />
+    <option name="y" value="115" />
+    <option name="width" value="999" />
+    <option name="height" value="924" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -135,6 +119,23 @@
             <path>
               <item name="pythondj" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythondj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythondj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythondj" type="462c0819:PsiDirectoryNode" />
+              <item name="dj1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythondj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythondj" type="462c0819:PsiDirectoryNode" />
+              <item name="dj1" type="462c0819:PsiDirectoryNode" />
+              <item name="dj1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythondj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythondj" type="462c0819:PsiDirectoryNode" />
+              <item name="dj1" type="462c0819:PsiDirectoryNode" />
+              <item name="my_app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -182,7 +183,7 @@
       <workItem from="1554983096322" duration="5012000" />
       <workItem from="1554988967094" duration="255000" />
       <workItem from="1554989344940" duration="1782000" />
-      <workItem from="1554993282131" duration="969000" />
+      <workItem from="1554993282131" duration="6310000" />
     </task>
     <task id="LOCAL-00001" summary="项目提交,生产数据库表">
       <created>1554984319428</created>
@@ -205,17 +206,23 @@
       <option name="project" value="LOCAL" />
       <updated>1554984558288</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="项目提交,生产数据库表,修复不能创建迁移文件">
+      <created>1554994306231</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554994306231</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8018000" />
+    <option name="totallyTimeSpent" value="13359000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="71" y="25" width="1849" height="1055" extended-state="6" />
-    <editor active="true" />
+    <frame x="921" y="115" width="999" height="924" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2579035" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23504722" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -226,11 +233,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4997227" weight="0.32937366" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4997227" weight="0.32830188" />
       <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="9" sideWeight="0.4997227" weight="0.32937366" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50305045" side_tool="true" visible="true" weight="0.35313174" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49694952" visible="true" weight="0.35313174" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5031447" side_tool="true" weight="0.41132075" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.4963274" visible="true" weight="0.35220125" />
       <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.49916804" weight="0.32937366" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -286,7 +293,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目提交,生产数据库表" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目提交,生产数据库表" />
+    <MESSAGE value="项目提交,生产数据库表,修复不能创建迁移文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目提交,生产数据库表,修复不能创建迁移文件" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/py1/py1/__init__.py" />
@@ -349,20 +357,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dj1/my_app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="368">
-            <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <first_editor relative-caret-position="230">
+            <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dj1/my_app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
