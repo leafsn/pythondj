@@ -23,4 +23,17 @@ django.core.exceptions.ImproperlyConfigured: mysqlclient 1.3.3 or newer is requi
  if version < (1, 3, 3):
     raise ImproperlyConfigured("mysqlclient 1.3.3 or newer is required; you have %s" % Database.__version__)
 ```
+> 测试数据操作 进入Python shell
+```shell
+    python3 manage.py shell
+    
+#引入包
+>>> from  my_app.models import Grades, Student
+>>> from django.utils import timezone
+>>> from datetime import *
+#查询所有数据:
+>>> Grades.objects.all()
+#添加数据,创建一个模型类的对象实例
+
+```
 
