@@ -21,7 +21,6 @@ django.core.exceptions.ImproperlyConfigured: mysqlclient 1.3.3 or newer is requi
 ## 解决方法
 找到到文件中注释掉
  if version < (1, 3, 3):
- 
     raise ImproperlyConfigured("mysqlclient 1.3.3 or newer is required; you have %s" % Database.__version__)
 ```
 
