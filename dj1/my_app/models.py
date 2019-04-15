@@ -8,7 +8,7 @@ class Grades(models.Model):
     gboynum = models.IntegerField()
     isDelete = models.BooleanField(default=False)
     def __str__(self):
-        return '{}-{}-{}'.format(self.gname, self.ggirlnum, self.gboynum)
+        return self.gname
 
 class Student(models.Model):
     sname = models.CharField(max_length=20)
@@ -18,3 +18,5 @@ class Student(models.Model):
     isDelete = models.BooleanField(default=False)
     #关联外键
     sgrade = models.ForeignKey("Grades", on_delete = models.CASCADE)
+    def __str__(self):
+        return self.sname
