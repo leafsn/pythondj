@@ -172,3 +172,30 @@ admin.site.register(Grades, GradesAdmin)
 配置模板路径   修改settings.py文件下的templates
 
 path运用正则匹配   引入 re_path
+
+
+
+元选项
+
+在模型中定义Meta类
+
+ 定义数据表名,推荐使用小写字母,数据表名默认为项目名小写_类名小写
+
+db_table =""
+
+对象的默认排序字段,获取对象的列表时使用,排序会增加数据库的开销
+
+ordering =[]
+
+ordering["id"] 升序
+
+ordering["-id"] 降序
+
+### 模型成员
+
+> 类属性 objects
+>
+> 是Manager类型的一个对象,作用是与数据库进行交互
+>
+> 当定义模型累是没有指定管理器,则django为创建一个objects的管理器
+
