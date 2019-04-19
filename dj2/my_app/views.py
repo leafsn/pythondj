@@ -115,7 +115,7 @@ def login(request):
     return render(request, 'my_app/login.html')
 
 def showmain(request):
-    username = request.POST.get('username')
+    username = request.POST['username']
     #存储session
     request.session['username'] = username
     return redirect(request, '/myapp/mainn')

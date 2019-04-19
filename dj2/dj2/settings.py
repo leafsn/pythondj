@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'dj2.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': "db1",
+        'NAME': "pydb",
         'USER': 'root',
         'PASSWORD': '123456',
         'HOST': 'localhost',
