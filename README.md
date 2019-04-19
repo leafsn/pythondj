@@ -323,3 +323,130 @@ Sum      求和
 > 过滤器的方法中的关键字参数，条件为And模式
 >
 > 使用Q对象进行or查询
+
+### 视图
+
+ 视图接受web请求，并响应web请求
+
+视图就是一个python中的函数
+
+相应： 网页，重定向，JSON数据，错误视图
+
+> url配置
+
+指定根级url配置文件   setting.py中的ROOT_URLCONF
+
+urlpatterns  一个url实例的列表   url对象   正则表达式、视图名称、名称
+
+> url配置的反向解析
+
+如果在视图、模板中使用硬编码，在url配置发生改变时，动态生成链接地址
+
+在使用链接时，通过url配置的名称，动态生成url地址
+
+使用url模板
+
+> 视图函数
+
+定义视图   视图参数  一个HttpRequest的一个实例
+
+​		通过正则表达式获取的参数
+
+一般在views.py文件下定义
+
+>  错误视图
+>
+> 404  找不到网页   url匹配不成功，在templates目录下定义404.html   》request_path错误网址
+>
+> ​	配置settings.py    Debug = False    Allowed_hosts = ['*']
+>
+> 500  在视图代码中出现的错误
+>
+> 400  错误出现在客户的操作  			
+
+
+
+### HttpRequest对象
+
+> path:   请求的完整路经
+>
+> method:  表示请求的方式，常用的get，post
+>
+> encoding 表示浏览器提交的数据的编码方式
+>
+> GET  : 类似字典的对象，包含了get请求的所有参数
+>
+> POST： 类似字典的对象，包含了post请求的所有参数
+>
+> FILES :  类似字典的对象，包含了所有上传的文件
+>
+> COOKIES :  字典，包含所有的cookie
+>
+> SESSION :   表示当前会话
+
+> 方法： is_ajax()    如果是通过XMLHttpRequest发起的，返回True
+
+> QuertDict对象    request对象中的GET、 POST都属于QuseryDict对象
+>
+> 方法：   get()   根据键获取值              getlist() 将键的值以列表的形式返回
+
+##### GET     
+
+```
+a = request.GET.getlist('a')
+```
+
+##### POST
+
+```
+name = request.POST.get('name')
+```
+
+#### HttpResponse对象
+
+> 给浏览器返回数据        httpresponse对象由程序员创建
+
+> 不调用模板，直接返回数据
+>
+> 调用模板，使用render方法：render(request, 模板名称，{传到模板的数据})
+
+> 属性：content 内容,charset 编码, status_code, content-type输出类型
+
+> 方法
+>
+> ​	init:  使用页面内容实例化HttpResponse对象
+>
+> ​	write(content) ：以文件形式写入
+>
+> ​	flush():    以文件的形式输出缓冲区 
+>
+> ​	set_cookie(key, value='', max_age=None,exprise=None)
+>
+> ​	delete_cookie(key)   删除cookie
+
+> 子类HttpResponseRedirect
+>
+> ​	重定向   简单方法，from django.shortcuts import redirect
+>
+> ​	return redirect('/')
+>
+> 子类JsonResponse
+>
+> ​	返回json数据，一般用于异步请求
+>
+> ​	____init____(self, data)      字典对象
+
+### 状态保持
+
+启用session    settings文件中 ，INSTALLED_APPS, MIDDLEWARE 默认启用
+
+使用session	在启用session后，每个httpRequest对象都有一个session属性，一个类似字典的对象
+
+​	get(key, default=None)  	根据键获取session值
+
+​	clear() 	清空所有的会话
+
+​	flush() 	删除当前的会话并删除会话的cookie
+
+
+
