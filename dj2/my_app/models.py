@@ -12,15 +12,28 @@ class Grades(models.Model):
     def __str__(self):
         return self.gname
 
+
 class StudentManager(models.Manager):
     def get_queryset(self):
         return super(StudentManager, self).get_queryset().filter(isDelete=False)
 
+    def createStudent(self, name, age, gender, contend,
+                      grade, lastT, createT, isD=False):
+        stu = self.model()
+        stu.sname = name
+        stu.sage = age
+        stu.sgender = gender
+        stu.scontend = contend
+        stu.sgrade = grade
+        stu.lastTime = lastT
+        stu.createTime = createT
+        return stu
 
 class Student(models.Model):
 
     #自定义模型管理器
     stuObj = models.Manager()
+    stuObj2 = StudentManager()
     sname = models.CharField(max_length=20)
     sgender = models.BooleanField(default=True)
     sage = models.IntegerField()
