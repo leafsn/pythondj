@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9d8e1d3-0592-45f1-b5c8-f65140db0a61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dj2/templates/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dj2/templates/my_app/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dj2/templates/my_app/mainn.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dj2/templates/my_app/regist.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dj2/dj2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj2/dj2/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dj2/dj2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj2/dj2/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dj2/my_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj2/my_app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dj2/my_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj2/my_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dj2/templates/my_app/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/dj2/templates/my_app/login.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/dj2/my_app/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="567">
-              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -52,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dj2/my_app/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            <state relative-caret-position="335">
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -65,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/dj2/templates/my_app/regist.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="24" />
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -82,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dj2/my_app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
+            <state relative-caret-position="254">
+              <caret line="129" selection-start-line="129" selection-end-line="129" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -94,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dj2/templates/my_app/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="189">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -106,7 +101,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dj2/templates/my_app/mainn.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="187">
               <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
             </state>
           </provider>
@@ -125,7 +120,7 @@
         <entry file="file://$PROJECT_DIR$/dj2/dj2/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="243">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -168,10 +163,10 @@
         <option value="$PROJECT_DIR$/dj2/dj2/urls.py" />
         <option value="$PROJECT_DIR$/dj2/templates/my_app/regist.html" />
         <option value="$PROJECT_DIR$/dj2/templates/my_app/main.html" />
-        <option value="$PROJECT_DIR$/dj2/my_app/urls.py" />
         <option value="$PROJECT_DIR$/dj2/templates/my_app/mainn.html" />
-        <option value="$PROJECT_DIR$/dj2/my_app/views.py" />
         <option value="$PROJECT_DIR$/dj2/templates/my_app/login.html" />
+        <option value="$PROJECT_DIR$/dj2/my_app/urls.py" />
+        <option value="$PROJECT_DIR$/dj2/my_app/views.py" />
       </list>
     </option>
   </component>
@@ -304,7 +299,7 @@
       <workItem from="1555119921853" duration="16381000" />
       <workItem from="1555413137547" duration="9199000" />
       <workItem from="1555504272630" duration="1124000" />
-      <workItem from="1555506330198" duration="24460000" />
+      <workItem from="1555506330198" duration="28879000" />
     </task>
     <task id="LOCAL-00001" summary="项目提交,生产数据库表">
       <created>1554984319428</created>
@@ -348,17 +343,24 @@
       <option name="project" value="LOCAL" />
       <updated>1555546866618</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="4.18学习提交">
+      <created>1555632626144</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1555632626144</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64523000" />
+    <option name="totallyTimeSpent" value="68942000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="762" y="0" width="781" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23789765" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2033195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -603,7 +605,7 @@
     <entry file="file://$PROJECT_DIR$/dj2/my_app/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -617,7 +619,38 @@
     <entry file="file://$PROJECT_DIR$/dj2/dj2/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dj2/templates/my_app/mainn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dj2/templates/my_app/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dj2/templates/my_app/regist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dj2/my_app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -631,44 +664,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dj2/my_app/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dj2/my_app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
+        <state relative-caret-position="254">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dj2/templates/my_app/regist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dj2/templates/my_app/mainn.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dj2/templates/my_app/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>

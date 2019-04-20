@@ -23,5 +23,5 @@ urlpatterns = [
     path('redirect2/', views.redirect2),
     path('mainn/', views.mainn),
     path('login/', views.login),
-    path('showmain/', views.showmain),
+    re_path(r'^showmain/$', views.showmain),
 ]
