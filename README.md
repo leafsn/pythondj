@@ -450,3 +450,20 @@ name = request.POST.get('name')
 
 
 
+设置过期时间 request.session.set_expiry(10)     十秒钟之后过期 
+
+如果不设置，两个星期后过期，
+
+0	关闭浏览器过期
+
+None 	永不过期
+
+
+
+
+
+存储session的位置
+
+​	数据库，缓存，
+
+用redis存储缓存
