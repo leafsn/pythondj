@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9d8e1d3-0592-45f1-b5c8-f65140db0a61" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tensorflow/dtype.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matplotlib/new.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matplotlib/pyplot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tensorflow/123.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Tensorflow/123.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tensorflow/arr.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tensorflow/arr.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,20 +34,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tensorflow/ClassifyImages.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#156#238#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tensorflow/ClassifyText.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
+            <state>
               <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
             </state>
           </provider>
@@ -56,7 +45,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tensorflow/StructuredData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3432">
+            <state>
               <caret line="113" selection-start-line="113" selection-end-line="113" />
               <folding>
                 <element signature="e#152#233#0" expanded="true" />
@@ -68,17 +57,50 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tensorflow/regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5016">
+            <state>
               <caret line="152" column="14" selection-start-line="152" selection-start-column="14" selection-end-line="152" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tensorflow/arr.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="345" column="7" lean-forward="true" selection-start-line="345" selection-start-column="7" selection-end-line="345" selection-end-column="7" />
+            <state>
+              <caret line="345" column="7" selection-start-line="345" selection-start-column="7" selection-end-line="345" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tensorflow/dtype.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="202" selection-start-line="202" selection-end-line="202" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/matplotlib/new.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1431">
+              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+              <folding>
+                <element signature="e#142#173#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/matplotlib/pyplot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,7 +108,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tensorflow/keras.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
+            <state>
               <caret line="13" selection-start-line="13" selection-end-line="24" />
               <folding>
                 <element signature="e#143#166#0" expanded="true" />
@@ -98,7 +120,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tensorflow/numpy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
+            <state>
               <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
               <folding>
                 <element signature="e#144#162#0" expanded="true" />
@@ -110,7 +132,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/mysite/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
+            <state>
               <caret line="20" selection-start-line="20" selection-end-line="21" />
               <folding>
                 <element signature="e#628#660#0" expanded="true" />
@@ -164,12 +186,15 @@
         <option value="$PROJECT_DIR$/Tensorflow/regression.py" />
         <option value="$PROJECT_DIR$/Tensorflow/123.csv" />
         <option value="$PROJECT_DIR$/Tensorflow/arr.py" />
+        <option value="$PROJECT_DIR$/Tensorflow/dtype.py" />
+        <option value="$PROJECT_DIR$/matplotlib/new.py" />
+        <option value="$PROJECT_DIR$/matplotlib/pyplot.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1087" />
-    <option name="width" value="842" />
+    <option name="x" value="941" />
+    <option name="width" value="988" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
@@ -177,7 +202,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,17 +212,13 @@
             <path>
               <item name="pythondj" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythondj" type="462c0819:PsiDirectoryNode" />
-              <item name="django-polls" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythondj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythondj" type="462c0819:PsiDirectoryNode" />
-              <item name="Tensorflow" type="462c0819:PsiDirectoryNode" />
+              <item name="matplotlib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,7 +231,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -306,6 +326,9 @@
       <module name="pythondj" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorflow" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -418,7 +441,9 @@
       <workItem from="1555506330198" duration="10386000" />
       <workItem from="1555665070569" duration="917000" />
       <workItem from="1555982056403" duration="35469000" />
-      <workItem from="1556173352137" duration="22155000" />
+      <workItem from="1556173352137" duration="22183000" />
+      <workItem from="1556422085543" duration="24441000" />
+      <workItem from="1556526839646" duration="1403000" />
     </task>
     <task id="LOCAL-00001" summary="项目提交,生产数据库表">
       <created>1554984319428</created>
@@ -469,11 +494,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556184621864</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="提交">
+      <created>1556271336891</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1556271336891</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110610000" />
+    <option name="totallyTimeSpent" value="136482000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -485,10 +517,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1087" y="0" width="842" height="1038" extended-state="0" />
+    <frame x="941" y="0" width="988" height="1038" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17391305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20905173" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -502,16 +534,16 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4997227" weight="0.32743362" />
       <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="9" sideWeight="0.4997227" weight="0.32937366" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32964602" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5055624" side_tool="true" weight="0.33738938" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5064655" side_tool="true" weight="0.31858408" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49182117" weight="0.30752212" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="13" sideWeight="0.49443758" visible="true" weight="0.44469026" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.49353448" visible="true" weight="0.31776765" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.83189124" />
-      <window_info anchor="right" id="R Graphics" order="4" weight="0.32968238" />
-      <window_info anchor="right" id="R Packages" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.07776561" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.7909483" />
+      <window_info anchor="right" id="R Graphics" order="4" weight="0.3286638" />
+      <window_info anchor="right" id="R Packages" order="5" weight="0.3297414" />
+      <window_info anchor="right" id="Database" order="6" weight="0.077586204" />
       <window_info anchor="right" x="0" y="0" width="194" height="838" id="Documentation" order="7" side_tool="true" weight="0.3293348" />
     </layout>
   </component>
@@ -564,31 +596,18 @@
     <MESSAGE value="提交" />
     <option name="LAST_COMMIT_MESSAGE" value="提交" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tensorflow/dtype.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dj1/templates/my_app/students.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dj1/my_app/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1053">
-          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dj1/dj1/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3696">
-          <caret line="112" column="13" selection-start-line="112" selection-start-column="13" selection-end-line="112" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dj2/templates/my_app/grades.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -801,6 +820,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Tensorflow/Housing.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="484">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tensorflow/123.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Tensorflow/ClassifyImages.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -812,14 +856,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tensorflow/ClassifyText.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
+        <state>
           <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tensorflow/StructuredData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3432">
+        <state>
           <caret line="113" selection-start-line="113" selection-end-line="113" />
           <folding>
             <element signature="e#152#233#0" expanded="true" />
@@ -829,14 +873,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tensorflow/regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5016">
+        <state>
           <caret line="152" column="14" selection-start-line="152" selection-start-column="14" selection-end-line="152" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tensorflow/arr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="345" column="7" selection-start-line="345" selection-start-column="7" selection-end-line="345" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tensorflow/dtype.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tensorflow/keras.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
+        <state>
           <caret line="13" selection-start-line="13" selection-end-line="24" />
           <folding>
             <element signature="e#143#166#0" expanded="true" />
@@ -846,7 +904,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tensorflow/numpy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
+        <state>
           <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
           <folding>
             <element signature="e#144#162#0" expanded="true" />
@@ -856,7 +914,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/mysite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
+        <state>
           <caret line="20" selection-start-line="20" selection-end-line="21" />
           <folding>
             <element signature="e#628#660#0" expanded="true" />
@@ -864,35 +922,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tensorflow/Housing.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="484">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tensorflow/123.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tensorflow/arr.py">
+    <entry file="file://$PROJECT_DIR$/matplotlib/new.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="345" column="7" lean-forward="true" selection-start-line="345" selection-start-column="7" selection-end-line="345" selection-end-column="7" />
+        <state relative-caret-position="1431">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="e#142#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
