@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9d8e1d3-0592-45f1-b5c8-f65140db0a61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tensorflow/dtype.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/matplotlib/new.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/matplotlib/pyplot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matplotlib/denggao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matplotlib/dian.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matplotlib/donghua.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matplotlib/duotu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matplotlib/fenleibianlianghuitu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matplotlib/img.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matplotlib/note.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matplotlib/plt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matplotlib/qiantaofig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matplotlib/sandian.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matplotlib/zhuci.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matplotlib/zhuzhuangtu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib/pyplot.py" beforeDir="false" afterPath="$PROJECT_DIR$/matplotlib/pyplot.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,58 +44,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tensorflow/ClassifyText.py">
+        <entry file="file://$PROJECT_DIR$/matplotlib/zhuci.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tensorflow/StructuredData.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="113" selection-start-line="113" selection-end-line="113" />
+            <state relative-caret-position="351">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
-                <element signature="e#152#233#0" expanded="true" />
+                <element signature="e#145#163#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tensorflow/regression.py">
+        <entry file="file://$PROJECT_DIR$/matplotlib/img.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="152" column="14" selection-start-line="152" selection-start-column="14" selection-end-line="152" selection-end-column="14" />
+            <state relative-caret-position="-99">
+              <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+              <folding>
+                <element signature="e#142#173#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tensorflow/arr.py">
+        <entry file="file://$PROJECT_DIR$/matplotlib/dian.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="345" column="7" selection-start-line="345" selection-start-column="7" selection-end-line="345" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tensorflow/dtype.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="202" selection-start-line="202" selection-end-line="202" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/matplotlib/new.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1431">
-              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="347">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#142#173#0" expanded="true" />
               </folding>
@@ -94,48 +80,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/matplotlib/pyplot.py">
+        <entry file="file://$PROJECT_DIR$/matplotlib/fenleibianlianghuitu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="428">
+              <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tensorflow/keras.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="13" selection-start-line="13" selection-end-line="24" />
-              <folding>
-                <element signature="e#143#166#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tensorflow/numpy.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-              <folding>
-                <element signature="e#144#162#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/mysite/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="20" selection-start-line="20" selection-end-line="21" />
-              <folding>
-                <element signature="e#628#660#0" expanded="true" />
+                <element signature="e#159#190#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -189,12 +139,25 @@
         <option value="$PROJECT_DIR$/Tensorflow/dtype.py" />
         <option value="$PROJECT_DIR$/matplotlib/new.py" />
         <option value="$PROJECT_DIR$/matplotlib/pyplot.py" />
+        <option value="$PROJECT_DIR$/matplotlib/note.py" />
+        <option value="$PROJECT_DIR$/matplotlib/散点.py" />
+        <option value="$PROJECT_DIR$/matplotlib/sandian.py" />
+        <option value="$PROJECT_DIR$/matplotlib/zhuzhuangtu.py" />
+        <option value="$PROJECT_DIR$/matplotlib/denggao.py" />
+        <option value="$PROJECT_DIR$/matplotlib/duotu.py" />
+        <option value="$PROJECT_DIR$/matplotlib/plt.py" />
+        <option value="$PROJECT_DIR$/matplotlib/qiantaofig.py" />
+        <option value="$PROJECT_DIR$/matplotlib/zhuci.py" />
+        <option value="$PROJECT_DIR$/matplotlib/donghua.py" />
+        <option value="$PROJECT_DIR$/matplotlib/img.py" />
+        <option value="$PROJECT_DIR$/matplotlib/dian.py" />
+        <option value="$PROJECT_DIR$/matplotlib/fenleibianlianghuitu.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="941" />
-    <option name="width" value="988" />
+    <option name="x" value="886" />
+    <option name="width" value="1043" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
@@ -231,7 +194,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -255,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.arr">
+  <component name="RunManager" selected="Python.plt">
     <configuration name="ClassifyText" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythondj" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -344,20 +307,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="numpy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="plt" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythondj" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorflow" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/matplotlib" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorflow/numpy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matplotlib/plt.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -413,11 +373,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.plt" />
         <item itemvalue="Python.arr" />
         <item itemvalue="Python.regression" />
         <item itemvalue="Python.StructuredData" />
         <item itemvalue="Python.ClassifyText" />
-        <item itemvalue="Python.numpy" />
       </list>
     </recent_temporary>
   </component>
@@ -444,6 +404,7 @@
       <workItem from="1556173352137" duration="22183000" />
       <workItem from="1556422085543" duration="24441000" />
       <workItem from="1556526839646" duration="1403000" />
+      <workItem from="1556586181875" duration="22160000" />
     </task>
     <task id="LOCAL-00001" summary="项目提交,生产数据库表">
       <created>1554984319428</created>
@@ -505,7 +466,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136482000" />
+    <option name="totallyTimeSpent" value="158642000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -517,14 +478,41 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="941" y="0" width="988" height="1038" extended-state="0" />
+    <frame x="886" y="0" width="1043" height="1038" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20905173" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20956257" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49945474" weight="0.32964602" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49945474" weight="0.32915717" />
+      <window_info anchor="bottom" id="TODO" order="2" weight="0.32964602" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.46681416" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39933628" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4997227" weight="0.32743362" />
+      <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="9" sideWeight="0.4997227" weight="0.32937366" />
+      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32964602" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5064655" side_tool="true" weight="0.31858408" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49182117" weight="0.30752212" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="13" sideWeight="0.49353448" visible="true" weight="0.31776765" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.69684637" />
+      <window_info anchor="right" id="R Graphics" order="4" weight="0.3286638" />
+      <window_info anchor="right" id="R Packages" order="5" weight="0.3297414" />
+      <window_info anchor="right" id="Database" order="6" weight="0.077586204" />
+      <window_info anchor="right" x="0" y="0" width="194" height="838" id="Documentation" order="7" side_tool="true" weight="0.3293348" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16594827" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49945474" weight="0.32915717" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32964602" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.46681416" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39933628" />
@@ -540,12 +528,12 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.7909483" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.7866379" />
       <window_info anchor="right" id="R Graphics" order="4" weight="0.3286638" />
       <window_info anchor="right" id="R Packages" order="5" weight="0.3297414" />
       <window_info anchor="right" id="Database" order="6" weight="0.077586204" />
       <window_info anchor="right" x="0" y="0" width="194" height="838" id="Documentation" order="7" side_tool="true" weight="0.3293348" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -608,156 +596,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dj2/templates/my_app/grades.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dj2/templates/my_app/students.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dj1/my_app/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dj2/my_app/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dj2/my_app/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dj2/my_app/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dj1/my_app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-124">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dj1/my_app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" selection-start-line="23" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dj1/dj1/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding>
-            <element signature="e#627#659#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dj1/dj1/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dj2/templates/my_app/login.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dj2/templates/my_app/mainn.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/mysite/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dj2/templates/my_app/regist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dj2/my_app/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/polls/results.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/polls/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dj2/dj2/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1157">
-          <caret line="79" column="23" lean-forward="true" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dj2/dj2/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="e#627#659#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dj2/dj2/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-167">
-          <caret selection-end-line="1" />
-          <folding>
-            <element signature="e#219#228#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dj2/my_app/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dj2/dj2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dj2/my_app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="117" column="39" lean-forward="true" selection-start-line="117" selection-start-column="39" selection-end-line="117" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/polls/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/mysite/polls/admin.py" />
     <entry file="file://$PROJECT_DIR$/mysite/polls/urls.py" />
     <entry file="file://$PROJECT_DIR$/mysite/polls/apps.py" />
     <entry file="file://$PROJECT_DIR$/mysite/polls/models.py" />
@@ -834,14 +672,14 @@
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -856,14 +694,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tensorflow/ClassifyText.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="189">
           <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tensorflow/StructuredData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="2808">
           <caret line="113" selection-start-line="113" selection-end-line="113" />
           <folding>
             <element signature="e#152#233#0" expanded="true" />
@@ -873,28 +711,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tensorflow/regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="4104">
           <caret line="152" column="14" selection-start-line="152" selection-start-column="14" selection-end-line="152" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tensorflow/arr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="9315">
           <caret line="345" column="7" selection-start-line="345" selection-start-column="7" selection-end-line="345" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tensorflow/dtype.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="5454">
           <caret line="202" selection-start-line="202" selection-end-line="202" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matplotlib/new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1782">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="e#142#173#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tensorflow/keras.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="324">
           <caret line="13" selection-start-line="13" selection-end-line="24" />
           <folding>
             <element signature="e#143#166#0" expanded="true" />
@@ -904,7 +752,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tensorflow/numpy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="756">
           <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
           <folding>
             <element signature="e#144#162#0" expanded="true" />
@@ -914,7 +762,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/mysite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="513">
           <caret line="20" selection-start-line="20" selection-end-line="21" />
           <folding>
             <element signature="e#628#660#0" expanded="true" />
@@ -922,22 +770,169 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/matplotlib/new.py">
+    <entry file="file://$PROJECT_DIR$/matplotlib/pyplot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1431">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="360">
+          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matplotlib/note.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#143#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matplotlib/sandian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#146#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matplotlib/zhuzhuangtu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#150#181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matplotlib/denggao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#146#177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matplotlib/duotu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matplotlib/plt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+          <folding>
+            <element signature="e#141#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matplotlib/qiantaofig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matplotlib/donghua.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="63" column="10" lean-forward="true" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
+          <folding>
+            <element signature="e#146#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matplotlib/sin_frames/frame0000000.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matplotlib/sin_frames/frame0000001.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matplotlib/sin_frames/frame0000002.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matplotlib/sin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="173" column="36" lean-forward="true" selection-start-line="173" selection-start-column="36" selection-end-line="173" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matplotlib/sin_frames/frame0000036.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matplotlib/sin_frames/frame0000029.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matplotlib/sin_frames/frame0000028.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matplotlib/sin_frames/frame0000027.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matplotlib/sin_frames/frame0000026.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matplotlib/sin_frames/frame0000025.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matplotlib/sin_frames/frame0000006.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matplotlib/sin_frames/frame0000005.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matplotlib/sin_frames/frame0000004.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matplotlib/zhuci.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#145#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matplotlib/img.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99">
+          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
           <folding>
             <element signature="e#142#173#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/matplotlib/pyplot.py">
+    <entry file="file://$PROJECT_DIR$/matplotlib/dian.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="347">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#142#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matplotlib/fenleibianlianghuitu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+          <folding>
+            <element signature="e#159#190#0" expanded="true" />
           </folding>
         </state>
       </provider>
