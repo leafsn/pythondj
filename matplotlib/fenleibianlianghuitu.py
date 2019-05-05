@@ -55,3 +55,4 @@ plt.show()
 
 mu, sigma = 100, 15
 
+
