@@ -50,22 +50,22 @@ def readDate():
             y.append(float(line[-1]))
     return (x,y)
 
-x0,y0 = readDate()
-d = len(x0) - 10
-x = np.array(x0[:d])
-y = np.transpose(np.array([y0[:d]]))
+# x0,y0 = readDate()
+# d = len(x0) - 10
+# x = np.array(x0[:d])
+# y = np.transpose(np.array([y0[:d]]))
 
-xt = np.transpose(x)
-xtx = np.dot(xt,x)
-xty = np.dot(xt,y)
+# xt = np.transpose(x)
+# xtx = np.dot(xt,x)
+# xty = np.dot(xt,y)
 
-beta = np.linalg.solve(xtx, xty)
-print(beta)
+# beta = np.linalg.solve(xtx, xty)
+# print(beta)
 
-for data, actual in zip(x0[d:], y0[d:]):
-    x = np.array([data])
-    prediction = np.dot(x, beta)
-    print('prediction = ' + str(prediction[0,0]) + 'actual = ' + str(actual))
+# for data, actual in zip(x0[d:], y0[d:]):
+#     x = np.array([data])
+#     prediction = np.dot(x, beta)
+#     print('prediction = ' + str(prediction[0,0]) + 'actual = ' + str(actual))
 
 import matplotlib.pyplot as plt
 
@@ -153,8 +153,8 @@ result = np.hstack((v1, v2))
 print(result)
 
 # 读取数据
-result = np.genfromtxt('123.csv',encoding='utf-8', delimiter=',')
-print(result)
+# result = np.genfromtxt('123.csv',encoding='utf-8', delimiter=',')
+# print(result)
 
 # IO
 from io import StringIO
@@ -345,5 +345,6 @@ print(big_end_arr)
 
 # 结构化数组
 x = np.array([('Rex', 9, 81.0), ('Fido', 3, 27.0)],
-             dtype=[('name', 'U10'),('age', '<i4'),('weight','<f4')])
+             dtype=[('name', 'U10'),('age', 'i4'),('weight','f4')])
 print(x)
+
