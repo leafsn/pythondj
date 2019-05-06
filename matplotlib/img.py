@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import numpy as np
@@ -50,7 +50,6 @@ imgplot = plt.imshow(img, interpolation='bicubic')
 
 
 plt.show()
-=======
 # -*- coding: utf-8 -*-
 # @Time    : 2019/4/30 13:29
 # @Author  : xianj
@@ -110,4 +109,4 @@ plt.show()
 # plt.yticks(())
 
 # plt.show()
->>>>>>> origin/master
+

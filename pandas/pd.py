@@ -97,4 +97,75 @@ print(df[df > 0])
 
 # isin() 过滤方法
 df2 = df.copy()
-df2['E'] = ['one', 'one']
+df2['E'] = ['one', 'one', 'two', 'three', 'four', 'three']
+
+print(df2)
+print(df2[df2['E'].isin(['two', 'four'])])
+
+s1 = pd.Series([1, 2, 3, 4, 5, 6], index=pd.date_range('20130102', periods=6))
+print(s1)
+
+df['F'] = s1
+
+# 按标签设置值
+df.at[dates[0], 'A'] = 0
+
+# 按位置设置值
+df.iat[0, 1] = 0
+
+df.loc[:, 'D'] = np.array([5] * len(df))
+
+print(df)
+
+df2 = df.copy()
+df2[df2>0] = -df2
+print(df2)
+
+df1 = df.reindex(index=dates[0:4], columns=list(df.columns) + ['E'])
+df1.loc[dates[0]:dates[1], 'E'] = 1
+
+print(df1)
+
+# 删除任何缺少数据的行
+print(df1.dropna(how ='any'))
+
+# 填写缺失的数据
+print(df1.fillna(value=5))
+
+# 获取值所在与nan的布尔值
+print(pd.isna(df1))
+
+# 执行描述性统计
+print(df.mean())
+
+# 一个轴的操作
+df.mean(1)
+
+s = pd.Series([1, 3, 5, np.nan, 6, 8], index=dates).shift(2)
+print(s)
+
+print(df.sub(s, axis='index'))
+
+## 将函数应用于数据
+print(df.apply(np.cumsum))
+
+print(df.apply(lambda x: x.max() - x.min()))
+
+
+### 直方图
+s = pd.Series(np.random.randint(0, 7, size=10))
+
+print(s)
+
+print(s.value_counts())
+
+## 字符串方法
+
+s = pd.Series(['A', 'B', 'C', 'Aaba', np.nan, 'CABA','dog', 'cat'])
+
+# 字符串全部小写
+print(s.str.lower())
+
+## 合并
+df = pd.DataFrame(np.random.randn(10, 4))
+print(df)

@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9d8e1d3-0592-45f1-b5c8-f65140db0a61" name="Default Changelist" comment="">
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/Tensorflow/dtype.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/matplotlib/new.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/matplotlib/pyplot.py" afterDir="false" />
+=======
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -96,8 +99,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/matplotlib/pyplot.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="378">
               <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+=======
+            <state relative-caret-position="1026">
+              <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+>>>>>>> Stashed changes
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -441,9 +449,16 @@
       <workItem from="1555506330198" duration="10386000" />
       <workItem from="1555665070569" duration="917000" />
       <workItem from="1555982056403" duration="35469000" />
+<<<<<<< Updated upstream
       <workItem from="1556173352137" duration="22183000" />
       <workItem from="1556422085543" duration="24441000" />
       <workItem from="1556526839646" duration="1403000" />
+=======
+      <workItem from="1556173352137" duration="22155000" />
+      <workItem from="1556537853328" duration="524000" />
+      <workItem from="1556515079128" duration="6330000" />
+      <workItem from="1556852098754" duration="14301000" />
+>>>>>>> Stashed changes
     </task>
     <task id="LOCAL-00001" summary="项目提交,生产数据库表">
       <created>1554984319428</created>
@@ -495,17 +510,29 @@
       <updated>1556184621864</updated>
     </task>
     <task id="LOCAL-00008" summary="提交">
+<<<<<<< Updated upstream
       <created>1556271336891</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
       <updated>1556271336891</updated>
+=======
+      <created>1557061057727</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1557061057728</updated>
+>>>>>>> Stashed changes
     </task>
     <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="136482000" />
+=======
+    <option name="totallyTimeSpent" value="131765000" />
+>>>>>>> Stashed changes
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -517,8 +544,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< Updated upstream
     <frame x="941" y="0" width="988" height="1038" extended-state="0" />
     <editor active="true" />
+=======
+    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+>>>>>>> Stashed changes
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20905173" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -536,7 +567,11 @@
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32964602" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5064655" side_tool="true" weight="0.31858408" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49182117" weight="0.30752212" />
+<<<<<<< Updated upstream
       <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.49353448" visible="true" weight="0.31776765" />
+=======
+      <window_info active="true" anchor="bottom" id="Python Console" order="13" sideWeight="0.49443758" visible="true" weight="0.44555873" />
+>>>>>>> Stashed changes
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -942,5 +977,18 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
+=======
+    <entry file="file://$PROJECT_DIR$/matplotlib/shengmingzhouqi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> Stashed changes
   </component>
 </project>
