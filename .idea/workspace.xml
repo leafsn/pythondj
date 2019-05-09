@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9d8e1d3-0592-45f1-b5c8-f65140db0a61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pandas/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pandas/pd2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pandas/pdmap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pythondj.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythondj.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pandas/pd.py" beforeDir="false" afterPath="$PROJECT_DIR$/pandas/pd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pandas/pdmap.py" beforeDir="false" afterPath="$PROJECT_DIR$/pandas/pdmap.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pandas/pdmap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="463" selection-start-line="463" selection-end-line="463" />
+            <state relative-caret-position="346">
+              <caret line="500" column="24" selection-start-line="500" selection-start-column="24" selection-end-line="500" selection-end-column="24" />
               <folding>
                 <element signature="e#133#151#0" expanded="true" />
               </folding>
@@ -485,7 +480,7 @@
       <workItem from="1557017674913" duration="20670000" />
       <workItem from="1557196873469" duration="15190000" />
       <workItem from="1557278896985" duration="20320000" />
-      <workItem from="1557384029363" duration="8420000" />
+      <workItem from="1557384029363" duration="9402000" />
     </task>
     <task id="LOCAL-00001" summary="项目提交,生产数据库表">
       <created>1554984319428</created>
@@ -550,11 +545,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556616832231</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="提交">
+      <created>1557393602183</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1557393602183</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223313000" />
+    <option name="totallyTimeSpent" value="224295000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -567,9 +569,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="886" y="0" width="1043" height="1038" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32756868" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16378434" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -584,8 +585,8 @@
       <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="9" sideWeight="0.4997227" weight="0.32937366" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32964602" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5045778" side_tool="true" weight="0.19362187" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49182117" visible="true" weight="0.30752212" />
-      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.49353448" weight="0.45575222" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49182117" weight="0.30752212" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.49353448" visible="true" weight="0.45575222" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1072,8 +1073,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pandas/pdmap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="463" selection-start-line="463" selection-end-line="463" />
+        <state relative-caret-position="346">
+          <caret line="500" column="24" selection-start-line="500" selection-start-column="24" selection-end-line="500" selection-end-column="24" />
           <folding>
             <element signature="e#133#151#0" expanded="true" />
           </folding>
