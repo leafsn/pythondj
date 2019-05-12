@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upfile</title>
+</head>
+<body>
+    <form action="/myapp/savefile/" enctype="multipart/form-data" method="post">
+        {% csrf_token %}
+        <input type="file" name="file" />
+        <input type="submit" value="UP" />
+    </form>
+</body>
+</html>

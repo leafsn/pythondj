@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'my_app',
+    'tinymce',
+    'djcelery',
 ]
 
 MIDDLEWARE = [
@@ -123,3 +125,23 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+## 普通文件
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static')
+]
+
+## 上次文件目录
+MEDIA_ROOT = os.path.join(BASE_DIR, 'static/upfile')
+
+# 富文本
+TINYMCE_DEFAULT_CONFIG = {
+    'theme' : 'advanced',
+    'width' : 600,
+    'height': 400,
+}
+
+# celery
+import djcelery
+djcelery.setup_loader()  # 初始化
+BROKER_URL='redis://:123456@127.0.0.1:6379/0'
+CELERY_IMPORTS = ('my_app.task')

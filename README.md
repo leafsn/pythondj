@@ -1,3 +1,5 @@
+
+
 ### Django
 
 ```shell
@@ -467,3 +469,332 @@ None 	永不过期
 ​	数据库，缓存，
 
 用redis存储缓存
+
+
+
+### 模板
+
+> 定义模板: 传递变量的值,遵守标识符语法规则,
+
+{{ var }} 如果使用的变量不存在,就是空字符串
+
+在模板中使用点语法,字典查询,属性或者方法,数字索引(调用方法时不能传递参数)
+
+> #### 标签
+>
+> ​	{% tag %}  
+>
+> 1. 在输出中创建文本
+> 2. 控制逻辑和循环
+>
+> if,    {% if %}  {% elif  %} {% else %}   {% endif %}
+>
+> for,   {% for %}  {% empty %} (列表为空或者列表不存在时执行之后的语句)  {% endfor %}
+>
+> ​	{{ forloop.counter }}   在for里使用,显示当前循环了几次
+>
+> comment,     注释多行, {% comment %}  {% endcomment %}
+>
+>  ifequal, ifnotequal 判断是否相等或者不相等, 
+>
+> ​	{% ifequal 值1 值2 %}    {% endifequal %} 
+>
+> include, 	加载模板并以标签内的参数渲染    {% include '模板目录' 参数1 参数2 %}
+>
+> url,     反向解析    {% url ' namespace : name ' p1 p2 %}
+>
+>  csrf_token,      用于跨站请求伪造保护   {% csrf_token %}
+>
+> block,  extends,   用于模板的继承
+>
+> autoescape,   
+
+> #### 过滤器
+>
+> ​	语法: {{ var|过滤器 }}           在变量被显示前修改它
+>
+>  	1. upper   大写
+>  	2. lower   小写
+>
+> 过滤器可以传递参数,参数用引号引起来
+>
+> 3. join    列表|join : '#'	 用一个符号把列表中的成员连起来
+>
+> 4. default       如果一个表里没有提供,或者值为false, 空,可以使用默认值,	{{ var | default : ' default ' }}
+>
+> 5. date    根据给定格式转换日期为字符串            {{ dateVal | date : 'y-m-d' }}
+>
+> 6. escape     HTML转义
+>
+> 7. 加减乘除        
+>
+>      add      {{num | add:10 }}
+>
+>      widithradtio   {% num widthratio num 1 5 %}   (num/1*5)
+>
+>    divisibleby 模运算
+
+> #### 注释
+>
+>  	1. 单行注释	{{# 注释内容 #}}
+>  	2. 多行注释   {% comment %}
+
+> 反向解析   名称空间url
+
+> 模板继承
+>
+>   可以减少页面内容的重复定义,页面重用
+>
+> block标签	在父母版中预留区域,子模板去填充
+>
+> ​	{% block 标签 %}    {% endblock 标签名 %}
+>
+> extends标签    继承模板,需要写在模板文件的第一行
+>
+> ​	{% extend 父模板路径  %}
+
+> **HTML**转义
+>
+> ​	将传入的html代码字符串转义为 html 代码渲染
+>
+>  	1. {{ code | safe }}
+>
+> 2. {% autoescape off %}  {{ code }}  {% endautoscape %}
+
+> #### CSRF 
+>
+> 跨站请求伪造, 某些恶意网站包含链接,表单,按钮,根据js进行攻击
+>
+> 防止 {% csrf_token %}
+
+> ### 验证码
+>
+> 在用户注册, 登录页面的时候使用,为了防止暴力请求,减轻服务器的压力
+>
+> 
+
+### 静态文件
+
+配置setting文件   STATICFILES_DIRS = []
+
+
+
+#### 中间件
+
+​	一个轻量级,底层的插件,可以介入到django的请求和相应 一个Python类
+
+​	方法: __ __init__ __ 不需要传参,服务器
+
+ 	1. process_request(self, request) 在执行视图之前被调用,每个请求上都会调用,返回None或者HttpResponse
+ 	2. process_view(self, request, view_fun, view_args, view_lwargs)  调用视图之前执行,返回None或者HttpResponse
+ 	3. process_template_response(self, request, response) 在试图刚好执行完后调用,每个请求都会调用,返回一个HttpResponse对象
+ 	4. process_response(self, request, response) 所有相应返回浏览器之前调用,每个请求都会调用,返回一个HttpResponse对象
+ 	5. process_exception(self, request, exception) 当视图抛出异常时调用,返回一个HttpResponse对象
+
+在工程目录下创建一个middleware,创建app目录建立Python文件,
+
+​	from django.utils.deprecation import MiddlewareMixin
+
+​	配置settings.py MIDDLEWARE  中添加'middleware.myapp.myMiddle'
+
+
+
+#### 上传图片
+
+在static目录下创建upfile目录用于存储
+
+settings.py 配置 MDEIA_ROOT =os.path.join(BASE_DIR, 'static/upfile')
+
+上传文件需加enctype="multipart/form-data"
+
+### 分页
+
+1. >  paginator对象
+   >
+   > Paginator(列表, 整数)
+   >
+   > 属性
+   >
+   > ​	count 对象总数
+   >
+   > ​	num_pages 页面总数
+   >
+   > ​	page_range(页码列表)
+   >
+   > 方法: page(num) 获取一个page对象, 如果提供的页码不存在,会抛出InvalidPage异常
+   >
+   > 异常:
+   >
+   > ​	InvalidPage 当想page()传递一个个无效的页码时抛出
+   >
+   > ​	pageNotAnInteger   当向page()传递的不是一个整数时抛出
+   >
+   > ​	EmptyPage     页面没有数据是抛出
+2. >  page对象
+   >
+   > Paginator对象的page()方法赶回得到page对象
+   >
+   > 属性:
+   >
+   > ​       object_list   当前页上所有的数据列表
+   >
+   > ​       number  当前页的页码值
+   >
+   > ​       paginator   当前page对象关联的paginator对象
+   >
+   > 方法:
+   >
+   > ​      has_next()    是否有下一页
+   >
+   > ​      has_previous()    是否有上一页
+   >
+   > ​      has_other_pages()   是否有上一页或下一页
+   >
+   > ​     next_page_number()   返回下一页的页码,不存在抛出InvalidPage异常
+   >
+   > ​     previous_page_number()  返回上一页的页码,不存在抛出InvalidPage异常
+   >
+   > ​     len()  
+   >
+   > ```python
+   > from django.core.paginator import Paginator
+   > def stupage(request, pageid):
+   >     allList = Student.objects.all()
+   >     paginator = Paginator(allList, 3)
+   >     page = paginator.page(pageid)
+   >     return render(request, 'my_app/studentpage.html', {'students':page})
+   > ```
+   >
+   > ```html
+   > <body>
+   >     <table>
+   >         {% for stu in students %}
+   >         <tr>
+   >             <td>{{stu.sname}}</td>
+   >             <td>{{stu.sage}}</td>
+   >             <td>{{stu.sgender}}</td>
+   >         </tr>
+   >          {% endfor %}
+   >     </table>
+   >     <ul>
+   >         {% for index in students.paginator.page_range %}
+   >             {% if index == students.number %}
+   >                 {{index}}
+   >             {% else %}
+   >             <li>
+   >                 <a href="/myapp/stupage/{{ index }}/">{{index}}</a>
+   >             </li>
+   >             {% endif %}
+   >         {% endfor %}
+   >     </ul>
+   > </body>
+   > ```
+
+###　Ajax
+
+```python
+from django.http import JsonResponse
+def studentsinfo(request):
+    stus = Student.objects.all()
+    list = []
+    for stu in stus:
+        list.append([stu.sname,stu.sage,stu.sgender])
+    return JsonResponse({'data':list})
+```
+
+```js
+$.ajax({
+    type: 'get',
+    url: '/myapp/studentsinfo/',
+    dataType: 'json',
+    success:function (data, status) {
+        console.log(data)
+        var d = data.data;
+        for (var i =1; i < d.length; i++) {
+            document.write('<p>' + d[i][0] + '---'+ d[i][1] + '</p>');
+        }
+    }
+```
+
+### 富文本
+
+​	pip install django-tinymce
+
+​	在站点中使用
+
+```
+# 配置settings.py文件    INSTALLED_APP添加tinymce
+TINYMCE_DEFAULT_CONFIG = {
+    'theme' : 'advanced',
+    'width' : 600,
+    'height': 400,
+}
+
+#富文本
+from  tinymce.models import HTMLField
+class Text(models.Model):
+    str = HTMLField()
+    
+# 站点注册Text
+admin.site.register(Text)
+```
+
+自定义视图中使用
+
+```html
+<script src="/static/tiny_mce/tiny_mce.js"></script>
+<script>
+    tinyMCE.init({
+        'mode' : 'textareas',
+        'theme': 'advanced',
+        'width' : 800,
+        'height' : 400,
+    })
+</script>
+
+<form>
+    <textarea name="str">123</textarea>
+</form>
+```
+
+​	
+
+### celery 
+
+ 网站每隔一段时间更新一次,
+
+ 	将耗时的操作放到celery中执行
+
+​	使用celery定时执行
+
+celery
+
+​	任务: 本质是一个Python函数,将耗时操作封装成一个函数
+
+​	队列: 将要执行的任务放队列里
+
+​	工人: 负责执行队列中的任务
+
+​	代理: 负责调度
+
+安装: 
+
+​	pip install celery
+
+​	pip install celery-with-redis
+
+​	pip install django-celery
+
+配置settings.py
+
+​	INSTALLED_APP   添加 djcelery
+
+```python
+# celery
+import djcelery
+djcelery.setup_loader()  # 初始化
+BROKER_URL='redis://:123456@127.0.0.1:6379/0'
+CELERY_IMPORTS = ('my_app.task')
+```
+
+​	创建my_app/task.py

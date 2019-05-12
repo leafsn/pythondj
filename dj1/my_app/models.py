@@ -20,3 +20,8 @@ class Student(models.Model):
     sgrade = models.ForeignKey("Grades", on_delete = models.CASCADE)
     def __str__(self):
         return self.sname
+# 富文本
+from  tinymce.models import HTMLField
+class Text(models.Model):
+    str = HTMLField()
+

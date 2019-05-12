@@ -2,7 +2,7 @@ from django.contrib import admin
 
 
 # Register your models here.
-from .models import Grades, Student
+from .models import Grades, Student, Text
 # @admin.register(Student)
 
 ###  注册
@@ -50,3 +50,7 @@ class StudentAdmin(admin.ModelAdmin):
     actions_on_top = False
     actions_on_bottom = True
 admin.site.register(Student, StudentAdmin)
+
+# 站点注册Text
+admin.site.register(Text)
+
