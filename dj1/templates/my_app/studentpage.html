@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <table>
+        {% for stu in students %}
+        <tr>
+            <td>{{stu.sname}}</td>
+            <td>{{stu.sage}}</td>
+            <td>{{stu.sgender}}</td>
+        </tr>
+         {% endfor %}
+    </table>
+    <ul>
+        {% for index in students.paginator.page_range %}
+            {% if index == students.number %}
+                {{index}}
+            {% else %}
+            <li>
+                <a href="/myapp/stupage/{{ index }}/">{{index}}</a>
+            </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</body>
+</html>
