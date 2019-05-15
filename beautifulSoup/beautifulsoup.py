@@ -413,12 +413,343 @@ print(soup.select('a[href]'))
 print(soup.select('a[href="http://example.com/elsie"]'))
 
 
+# 通过语言设置来查找
+multilingual_markup = """
+ <p lang="en">Hello</p>
+ <p lang="en-us">Howdy, y'all</p>
+ <p lang="en-gb">Pip-pip, old fruit</p>
+ <p lang="fr">Bonjour mes amis</p>
+"""
+
+# mutilinggual_soup = BeautifulSoup(multilingual_markup)
+# mutilinggual_soup.select('p[lang|=en]')
+
+soup = BeautifulSoup('<b class="boldest">Extremely bold</b>')
+tag = soup.b
+
+# 修改标签名
+tag.name = "blockquote"
+# 修改class
+tag['class'] = 'verybold'
+# 添加id
+tag['id'] = 1
+print(tag)
+
+# 删除class,删除id
+del tag['class']
+del tag['id']
+print(tag)
+
+### 修改.string属性,用当前的内容替代原来的内容
+markup = '<a href="http://example.com/">I linked to <i>example.com</i></a>'
+soup = BeautifulSoup(markup)
+tag = soup.a
+tag.string = "new link text."
+print(tag)
+
+### tag.append方法想tag中添加内容
+soup = BeautifulSoup("<a>Foo</a>")
+soup.a.append('Bar')
+print(soup)
+print(soup.a.contents)
+
+# 调用工厂方法BeautiSoup.new_string():
+soup = BeautifulSoup("<b></b>")
+tag = soup.b
+tag.append("Hello")
+new_string = soup.new_string(" there")
+tag.append(new_string)
+print(tag)
+print(tag.contents)
+
+# 创建一段注释,传入第二个参数
+from bs4 import Comment
+new_comment = soup.new_string("Nice to see you.", Comment)
+tag.append(new_comment)
+print(tag)
+
+print(tag.contents)
+
+# 创建一个tag最好的方法是调用工厂方法 BeautifulSoup.new_tag():
+soup = BeautifulSoup("<b></b>")
+original_tag = soup.b
+# 创建一个新标签a,第一个参数tag名字必填
+new_tag = soup.new_tag('a', href='http://www.example.com')
+# 将新创建的tag添加到原始标签中
+original_tag.append(new_tag)
+print(original_tag)
+
+# 添加内容
+new_tag.string = 'Link text.'
+print(original_tag)
+
+## insert 把元素插入到指定位置
+markup = '<a href="http://example.com/">I linked to <i>example.com</i></a>'
+soup = BeautifulSoup(markup)
+tag = soup.a
+
+tag.insert(1, 'but did not endorse ')
+print(tag)
+print(tag.contents)
+
+# 在当前tag或文本节点之前插入内容
+soup = BeautifulSoup('<b>soup</b>')
+tag = soup.new_tag('i')
+tag.string = 'Dont'
+# b的前面插入tag
+soup.b.string.insert_before(tag)
+print(soup.b)
+
+# 在当前tag或文本节点之后插入内容
+soup.b.i.insert_after(soup.new_string(" ever "))
+print(soup.b)
+print(soup.b.contents)
+
+## 移除当前tag的内容
+markup = '<a href="http://example.com/">I linked to <i>example.com</i></a>'
+soup = BeautifulSoup(markup)
+tag = soup.a
+
+tag.clear()
+print(tag)
+
+print('---------------------------')
+# extract() 将当前tag移除文档树,并作为方法返回
+markup = '<a href="http://example.com/">I linked to <i>example.com</i></a>'
+soup = BeautifulSoup(markup)
+a_tag = soup.a
+
+i_tag = soup.i.extract()
+print(a_tag)
+print(i_tag)
+print(soup.find('i'))
+print(i_tag.parent)
+
+
+my_string = i_tag.string.extract()
+print(my_string)
+print(my_string.parent)
+print(i_tag)
+
+## decompose 将当前节点移除文档书并完全销毁
+markup = '<a href="http://example.com/">I linked to <i>example.com</i></a>'
+soup = BeautifulSoup(markup)
+a_tag = soup.b
+soup.i.decompose()
+print(a_tag)
+
+
+## replace_with 移除文档树某段内容.并用新的tag或文本节点替代它
+markup = '<a href="http://example.com/">I linked to <i>example.com</i></a>'
+soup = BeautifulSoup(markup)
+a_tag = soup.a
+
+new_tag = soup.new_tag('b')
+new_tag.string = 'example.net'
+a_tag.i.replace_with(new_tag)
+
+print(a_tag)
+
+# wrap() 方法可以对指定的tag元素进行包装,并返回包装后的结果
+soup = BeautifulSoup("<p>I wish I was bold.</p>")
+print(soup.p.string.wrap(soup.new_tag('b')))
+
+print(soup.p.wrap(soup.new_tag('div')))
+
+# 移除tag内所有的tag标签,该方法常被用来进行标记的解包
+markup = '<a href="http://example.com/">I linked to <i>example.com</i></a>'
+soup = BeautifulSoup(markup)
+a_tag = soup.a
+
+a_tag.i.unwrap()
+a_tag
+
+### 输出,
+#格式化输出   prettify
+markup = '<a href="http://example.com/">I linked to <i>example.com</i></a>'
+soup = BeautifulSoup(markup)
+
+print(soup.prettify())
+
+print(soup.a.prettify())
+
+## 只想得到结果字符串,不重视格式,Unicode 或者 str()
+
+print(str(soup))
+print(unicode(soup.a))
+
+# 输出格式  讲特殊字符转换成unicode;
+soup = BeautifulSoup("&ldquo;Dammit!&rdquo; he said.")
+print(unicode(soup))
+
+print(str(soup))
+
+# 如果只想得到tag中包含的文本内容,那么可以使用get_text()方法,
+# 这个方法获取到tag中包含的所有文本内容作为Unicode字符串返回
+
+markup = '<a href="http://example.com/">I linked to <i>example.com</i></a>'
+soup = BeautifulSoup(markup)
+
+print(soup.get_text)
+print(soup.i.get_text())
+
+# 可以通过参数指定tag的文本内容的分隔符:
+print(soup.get_text('|'))
+
+# 去除文本内容前后的空白
+print(soup.get_text('|', strip=True))
+
+# 使用.stripped_strings生成起,获得文本列表后手动处理列表
+list = [text for text in soup.stripped_strings]
+# print(list)
+
+## 编码
+markup = b"<h1>\xed\xe5\xec\xf9</h1>"
+soup = BeautifulSoup(markup)
+print(soup.h1)
+
+print(soup.original_encoding)
+
+# 指定编码方式
+soup = BeautifulSoup(markup, from_encoding="iso-8859-8")
+print(soup.h1)
+
+### 通过beautifulsoup输出文档时,输出的UTF-8编码
+
+markup = b'''
+<html>
+  <head>
+    <meta content="text/html; charset=ISO-Latin-1" http-equiv="Content-type" />
+  </head>
+  <body>
+    <p>Sacr\xe9 bleu!</p>
+  </body>
+</html>
+'''
+
+soup = BeautifulSoup(markup)
+print(soup.prettify())
+
+# 将编码方式传入prettify()方法中,输出原编码
+print((soup.prettify('latin-1')))
+
+# 还可以调用BeautifulSoup对象或任意节点的encode()方法
+print(soup.p.encode('latin-1'))
+print(soup.p.encode("utf-8"))
+
+# 编码不支持会转换成特殊字符引用
+markup = u"<b>\N{SNOWMAN}</b>"
+snowman_soup = BeautifulSoup(markup)
+tag = snowman_soup.b
+
+print(tag.encode('utf-8'))
+print(tag.encode('latin-1'))
+print(tag.encode('ascii'))
+
+
+### 编码自动检测
+from bs4 import UnicodeDammit
+dammit = UnicodeDammit("Sacr\xc3\xa9 bleu!")
+print(dammit.unicode_markup)
+print(dammit.original_encoding)
+
+
+dammit = UnicodeDammit("Sacr\xe9 bleu!", ["latin-1", "iso-8859-1"])
+print(dammit.unicode_markup)
+print(dammit.original_encoding)
+
+# 智能引号,使用Unicode时,会自能地把引号转换成HTML的特殊字符
+markup = b"<p>I just \x93love\x94 Microsoft Word\x92s smart quotes</p>"
+
+print(
+    UnicodeDammit(markup, ['windows-1252'], smart_quotes_to='html').unicode_markup
+)
+print(
+    UnicodeDammit(markup, ['windows-1252'], smart_quotes_to='xml').unicode_markup
+)
+
+# 把引号转换为ascii码:
+print(
+    UnicodeDammit(markup, ['windows-1252'], smart_quotes_to='ascii').unicode_markup
+)
+
+# 默认情况下,BeautifulSoup把引号转换为Unicode
+print(
+    UnicodeDammit(markup, ['windows-1252']).unicode_markup
+)
+
+# 矛盾的编码
+snowmen = (u"\N{SNOWMAN}" * 3)
+quote = (u"\N{LEFT DOUBLE QUOTATION MARK}I like snowmen!\N{RIGHT DOUBLE QUOTATION MARK}")
+doc = snowmen.encode("utf8") + quote.encode("windows_1252")
+
+print(doc)
+print(doc.decode("windows-1252"))
+
+# 使用UnicodeDammit.detwingle()方法把这段字符串转换为UTF-8编码,
+# 允许我们同时显示文档中的snowmen和引号,
+# 在创建BeautifulSoup或UnicodeDammit对象前,先对文档调用UnicodeDammit.detwingle确保文档编码正确
+new_doc = UnicodeDammit.detwingle(doc)
+print(new_doc.decode("utf-8"))
+
+
+## 解析部分文档  SoupStrainer
+from bs4 import SoupStrainer
+
+only_a_tags = SoupStrainer('a')
+print(only_a_tags)
+
+only_tags_with_id_link2 = SoupStrainer(id ='link2')
+print(only_tags_with_id_link2)
+
+def is_short_string(string):
+    return len(string) < 10
+only_short_strings = SoupStrainer(text=is_short_string)
 
 
 
+html_doc = """
+<html><head><title>The Dormouse's story</title></head>
+
+<p class="title"><b>The Dormouse's story</b></p>
+
+<p class="story">Once upon a time there were three little sisters; and their names were
+<a href="http://example.com/elsie" class="sister" id="link1">Elsie</a>,
+<a href="http://example.com/lacie" class="sister" id="link2">Lacie</a> and
+<a href="http://example.com/tillie" class="sister" id="link3">Tillie</a>;
+and they lived at the bottom of a well.</p>
+
+<p class="story">...</p>
+"""
+
+print(
+    BeautifulSoup(html_doc, 'html.parser', parse_only=only_a_tags).prettify()
+)
+
+print(
+    BeautifulSoup(html_doc, 'html.parser', parse_only=only_tags_with_id_link2).prettify()
+)
+
+print(
+    BeautifulSoup(html_doc, 'html.parser', parse_only=only_short_strings)
+)
 
 
+soup = BeautifulSoup(html_doc)
+print(soup.find_all(only_short_strings))
 
+# 代码诊断
+from bs4.diagnose import diagnose
+data = open("bad.html").read()
+print(diagnose(data))
+
+
+from urllib.request import urlopen
+
+soup = BeautifulSoup(urlopen('https://blog.csdn.net/weixin_42184707/article/details/80361464'))
+print(soup.prettify())
+
+print(soup.find_all('pre'))
 
 
 

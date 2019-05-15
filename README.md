@@ -798,3 +798,9 @@ CELERY_IMPORTS = ('my_app.task')
 ```
 
 ​	创建my_app/task.py
+
+​	执行迁移,生成celery需要的数据表
+
+​	在工程目录下的_____init_____.py中添加
+
+​	
